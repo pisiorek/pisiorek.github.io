@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  const apiRoot = 'https://fathomless-forest-89199.herokuapp.com/';
+  const apiRoot = 'https://fathomless-forest-89199.herokuapp.com/v1/tasks/';
   //const apiRoot = 'http://localhost:8080/v1/';
   const trelloApiRoot = 'http://localhost:8080/v1/trello/';
   //const trelloApiRoot = 'https://desolate-brook-46706.herokuapp.com/v1/trello/';
