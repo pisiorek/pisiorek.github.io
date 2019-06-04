@@ -1,9 +1,9 @@
 $(document).ready(function() {
   const apiRoot = 'https://fathomless-forest-89199.herokuapp.com/v1/';
+  const trelloApiRoot = 'https://fathomless-forest-89199.herokuapp.com/v1/trello/';
   //const apiRoot = 'http://localhost:8080/v1/';
   //const trelloApiRoot = 'http://localhost:8080/v1/trello/';
-  const trelloApiRoot = 'https://fathomless-forest-89199.herokuapp.com/v1/trello/';
-  //const trelloApiRoot = 'https://desolate-brook-46706.herokuapp.com/v1/trello/';
+    //const trelloApiRoot = 'https://desolate-brook-46706.herokuapp.com/v1/trello/';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
 
